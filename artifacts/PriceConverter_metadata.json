@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cyfrin tutorials/FundMe.sol": "PriceConverter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x257a8d28fa83d3d942547c8e129ef465e4b5f3f31171e7be4739a4c98da6b4f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d39e11b1dc7b9b8ccdabbc9be442ab7cda4a81c748f57e316dcb1bcb4a28bf9",
+				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
+			]
+		},
+		"Cyfrin tutorials/FundMe.sol": {
+			"keccak256": "0x99a9e3be179c241489dfe83e59365bca45a7e56b0d74c4a340f021b17e15a4e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4444393645aa7c7595f2edcc3d42b9d914007d63d1d3e5aeb5dbb33d76c71535",
+				"dweb:/ipfs/QmTipkpV5UCbdjge7kTS5rB7iuPK9Z8B6VkSUrCxighH3K"
+			]
+		}
+	},
+	"version": 1
+}
